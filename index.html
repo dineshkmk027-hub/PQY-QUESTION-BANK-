@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PYQ Study App</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f6fb;
+    }
+
+    .header {
+      background: #1976d2;
+      color: white;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .stats {
+      display: flex;
+      gap: 12px;
+    }
+
+    .stat {
+      flex: 1;
+      background: white;
+      padding: 18px;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px #ddd;
+    }
+
+    .stat b {
+      font-size: 25px;
+      color: #1976d2;
+    }
+
+    .card {
+      background: white;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 18px;
+      box-shadow: 0 2px 8px #ddd;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      margin-top: 12px;
+      border: none;
+      border-radius: 12px;
+      background: #1976d2;
+      color: white;
+      font-size: 17px;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>📚 PYQ Study App</h1>
+    <p>Smart Preparation</p>
+  </div>
+
+  <div class="container">
+
+    <div class="stats">
+
+      <div class="stat">
+        <b>0</b>
+        <br>
+        Questions
+      </div>
+
+      <div class="stat">
+        <b>0%</b>
+        <br>
+        Accuracy
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <h2>🎯 मेरी तैयारी</h2>
+
+      <p>
+        PYQ डालें और अपनी तैयारी का पूरा analysis करें।
+      </p>
+
+      <button onclick="addPYQ()">
+        ➕ Add PYQ
+      </button>
+
+      <button onclick="mockTest()">
+        📝 Mock Test
+      </button>
+
+      <button onclick="performance()">
+        📊 Performance
+      </button>
+
+      <button onclick="weakTopics()">
+        🔴 Weak Topics
+      </button>
+
+    </div>
+
+  </div>
+
+  <script>
+
+    function addPYQ() {
+      alert("PYQ Add System जल्द तैयार होगा!");
+    }
+
+    function mockTest() {
+      alert("Mock Test System जल्द तैयार होगा!");
+    }
+
+    function performance() {
+      alert("Performance Analysis जल्द तैयार होगा!");
+    }
+
+    function weakTopics() {
+      alert("Weak Topics Analysis जल्द तैयार होगा!");
+    }
+
+  </script>
+
+</body>
+</html>
